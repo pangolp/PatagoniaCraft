@@ -1,0 +1,5 @@
+ContextMenu_AR = {
+  contextMenu_modName = 'Patagonia',
+  contextMenu_container = 'Contenedores',
+  contextMenu_crate_patagonia = 'Caja patagonica',
+}

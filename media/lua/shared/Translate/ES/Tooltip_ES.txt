@@ -1,0 +1,3 @@
+Tooltip_ES = {
+  tooltip_crate_patagonian = 'Una caja grande, para que que no dejes nada fuera.',
+}

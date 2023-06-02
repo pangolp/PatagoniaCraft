@@ -1,3 +1,0 @@
-Tooltip_AR = {
-  tooltip_crate_patagonian = 'Una caja grande, para que que no dejes nada fuera.',
-}

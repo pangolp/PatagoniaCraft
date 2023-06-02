@@ -21,36 +21,13 @@ PatagoniaCraft.textCanRotate = '<LINE> <RGB:1,1,1>' .. getText('Tooltip_craft_pr
 PatagoniaCraft.textPlasterRed = '<RGB:1,0,0> <LINE> <LINE>' .. getText('Tooltip_PlasterRed_Description')
 PatagoniaCraft.textPlasterGreen = '<RGB:1,1,1> <LINE> <LINE>' .. getText('Tooltip_PlasterGreen_Description')
 PatagoniaCraft.textPlasterNever = '<RGB:1,0,0> <LINE> <LINE>' .. getText('Tooltip_PlasterNever_Description')
-
-PatagoniaCraft.textWallDescription = getText('Tooltip_Wall_Description')
-PatagoniaCraft.textPillarDescription = getText('Tooltip_Pillar_Description')
-PatagoniaCraft.textDoorFrameDescription = getText('Tooltip_DoorFrame_Description')
-PatagoniaCraft.textWindowFrameDescription = getText('Tooltip_WindowFrame_Description')
-PatagoniaCraft.textFenceDescription = getText('Tooltip_Fence_Description')
-PatagoniaCraft.textFencePostDescription = getText('Tooltip_FencePost_Description')
-PatagoniaCraft.textDoorGenericDescription = getText('Tooltip_craft_woodenDoorDesc')
-PatagoniaCraft.textDoorIndustrial = getText('Tooltip_DoorIndustrial_Description')
-PatagoniaCraft.textDoorExterior = getText('Tooltip_DoorExterior_Description')
-PatagoniaCraft.textStairsDescription = getText('Tooltip_craft_stairsDesc')
-PatagoniaCraft.textFloorDescription = getText('Tooltip_Floor_Description')
-PatagoniaCraft.textBarElementDescription = getText('Tooltip_BarElement_Description')
-PatagoniaCraft.textBarCornerDescription = getText('Tooltip_BarCorner_Description')
-PatagoniaCraft.textTrashCanDescription = getText('Tooltip_TrashCan_Description')
-PatagoniaCraft.textLightPoleDescription = getText('Tooltip_LightPole_Description')
-PatagoniaCraft.textSmallTableDescription = getText('Tooltip_SmallTable_Description')
-PatagoniaCraft.textLargeTableDescription = getText('Tooltip_LargeTable_Description')
-PatagoniaCraft.textCouchFrontDescription = getText('Tooltip_CouchFront_Description')
-PatagoniaCraft.textCouchRearDescription = getText('Tooltip_CouchRear_Description')
-PatagoniaCraft.textDresserDescription = getText('Tooltip_Dresser_Description')
-PatagoniaCraft.textBedDescription = getText('Tooltip_Bed_Description')
-PatagoniaCraft.textFlowerBedDescription = getText('Tooltip_FlowerBed_Description')
-
 PatagoniaCraft.toolsList['Hammer'] = {'Base.Hammer', 'Base.HammerStone', 'Base.BallPeenHammer', 'Base.WoodenMallet', 'Base.ClubHammer'}
 PatagoniaCraft.toolsList['Screwdriver'] = {'Base.Screwdriver'}
 PatagoniaCraft.toolsList['HandShovel'] = {'farming.HandShovel'}
 PatagoniaCraft.toolsList['Saw'] = {'Base.Saw'}
 PatagoniaCraft.toolsList['Shovel'] = {'Base.Shovel', 'Base.Shovel2'}
 PatagoniaCraft.toolsList['BlowTorch'] = {'Base.BlowTorch'}
+PatagoniaCraft.toolsList['WeldingMask'] = {'Base.WeldingMask'}
 
 PatagoniaCraft.skillLevel = {
   simpleObject = 1,

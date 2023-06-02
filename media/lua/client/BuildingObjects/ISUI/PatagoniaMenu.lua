@@ -15,11 +15,11 @@ PatagoniaCraft.OnFillWorldObjectContextMenu = function(player, context, worldobj
 
     PatagoniaCraft.buildSkillsList(_player)
 
-    local _mainMenu = context:addOption(getText('contextMenu_modName'))
+    local _mainMenu = context:addOption(getText('ContextMenu_Patagonia'))
     local _containerMenu = ISContextMenu:getNew(context)
     context:addSubMenu(_mainMenu, _containerMenu)
 
-    local _containerOption = _containerMenu:addOption(getText('contextMenu_container'))
+    local _containerOption = _containerMenu:addOption(getText('ContextMenu_Container'))
     local _crateMenu = _containerMenu:getNew(_containerMenu)
     context:addSubMenu(_containerOption, _crateMenu)
     PatagoniaCraft.cratesMenuBuilder(_crateMenu, player)

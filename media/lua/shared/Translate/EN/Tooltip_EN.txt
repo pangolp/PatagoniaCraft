@@ -1,3 +1,3 @@
 Tooltip_EN = {
-  tooltip_crate_patagonian = 'A large box, so that nothing is left out.',
+  Tooltip_CratePatagonia = "A 200 kg base weight box. Great for storing all kinds of items, and avoid having them placed on the floor. It can be stacked up to 3 times and can be painted in different colors.",
 }

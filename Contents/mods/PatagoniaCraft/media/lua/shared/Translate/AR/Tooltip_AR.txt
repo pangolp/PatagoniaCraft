@@ -1,0 +1,4 @@
+Tooltip_AR = {
+  Tooltip_CratePatagonia = "Una caja de 200 kg de peso base. Grande para almacenar todo tipo de ítems, y evitar tenerlos colocados en el suelo. Se puede apilar hasta 3 veces y permite ser pintada de diferentes colores.",
+  Tooltip_WallPatagonian = "Un muro, que te permite estar a salvo de los zombies, dado que no lo pueden romper. Es costoso de preparar, pero seguro para evitar las invasiones.",
+}

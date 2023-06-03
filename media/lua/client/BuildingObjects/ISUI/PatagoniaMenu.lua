@@ -23,6 +23,11 @@ PatagoniaCraft.OnFillWorldObjectContextMenu = function(player, context, worldobj
     local _crateMenu = _containerMenu:getNew(_containerMenu)
     context:addSubMenu(_containerOption, _crateMenu)
     PatagoniaCraft.cratesMenuBuilder(_crateMenu, player)
+
+    local _architectureOption = _containerMenu:addOption(getText('ContextMenu_Architecture'))
+    local _wallMenu = _containerMenu:getNew(_containerMenu)
+    context:addSubMenu(_architectureOption, _wallMenu)
+    PatagoniaCraft.wallsMenuBuilder(_wallMenu, player)
 end
 
 Events.OnFillWorldObjectContextMenu.Add(PatagoniaCraft.OnFillWorldObjectContextMenu)

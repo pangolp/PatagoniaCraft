@@ -1,3 +1,4 @@
 Tooltip_EN = {
   Tooltip_CratePatagonia = "A 200 kg base weight box. Great for storing all kinds of items, and avoid having them placed on the floor. It can be stacked up to 3 times and can be painted in different colors.",
+  Tooltip_WallPatagonian = "A wall, which allows you to be safe from zombies, since they cannot break it. It is expensive to prepare, but safe to prevent invasions.",
 }

@@ -3,7 +3,6 @@ if not getPatagoniaCraftInstance then
 end
 
 local PatagoniaCraft = getPatagoniaCraftInstance()
-local getText = getText
 
 PatagoniaCraft.cratesMenuBuilder = function(subMenu, player)
   local _sprite

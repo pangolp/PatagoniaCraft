@@ -13,27 +13,19 @@ PatagoniaCraft.woodenGateMenuBuilder = function(subMenu, player)
   PatagoniaCraft.neededMaterials = {
     {
       Material = 'Base.Plank',
-      Amount = 8
+      Amount = 12
     },
     {
-      Material = 'Base.Nails',
-      Amount = 8
+      Material = 'Base.Nail',
+      Amount = 12
     },
     {
       Material = 'Base.Doorknob',
       Amount = 2
     },
     {
-      Material = 'Base.Hinge',
-      Amount = 4
-    },
-    {
-      Material = 'Base.Screws',
-      Amount = 8
-    },
-    {
-      Material = 'Base.SmallSheetMetal',
-      Amount = 4
+      Material = 'Base.Doorknob',
+      Amount = 2
     }
   }
 
@@ -51,13 +43,12 @@ PatagoniaCraft.woodenGateMenuBuilder = function(subMenu, player)
   _option = subMenu:addOption(_name, worldobjects, PatagoniaCraft.onDoubleWoodenDoor, square, _sprite, 104, player)
   _tooltip = PatagoniaCraft.canBuildObject(needSkills, _option, player)
   _tooltip:setName(_name)
-  _tooltip.description = _tooltip.description
+  _tooltip.description = getText(Tooltip_WoodenGate) .. _tooltip.description
   _tooltip:setTexture(_sprite.sprite .. "105")
 end
 
 PatagoniaCraft.onDoubleWoodenDoor = function(worldobjects, square, sprite, spriteIndex, player)
   local _door = ISDoubleDoor:new(sprite.sprite, spriteIndex)
-  _door.modData["xp:Woodwork"] = 6
   _door.modData["need:Base.Plank"] = "12"
   _door.modData["need:Base.Nails"] = "12"
   _door.modData["need:Base.Hinge"] = "4"

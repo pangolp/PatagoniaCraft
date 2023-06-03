@@ -38,12 +38,12 @@ PatagoniaCraft.woodenGateMenuBuilder = function(subMenu, player)
   _sprite = {}
   _sprite.sprite = "fixtures_doors_fences_01_"
 
-  _name = getText("ContextMenu_Wooden_Gate_Patagonian")
+  _name = getText('ContextMenu_Wooden_Gate_Patagonian')
 
   _option = subMenu:addOption(_name, worldobjects, PatagoniaCraft.onDoubleWoodenDoor, square, _sprite, 104, player)
   _tooltip = PatagoniaCraft.canBuildObject(needSkills, _option, player)
   _tooltip:setName(_name)
-  _tooltip.description = getText(Tooltip_WoodenGate) .. _tooltip.description
+  _tooltip.description = getText('Tooltip_WoodenGate') .. _tooltip.description
   _tooltip:setTexture(_sprite.sprite .. "105")
 end
 

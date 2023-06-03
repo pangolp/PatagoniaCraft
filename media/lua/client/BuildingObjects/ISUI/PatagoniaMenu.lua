@@ -28,6 +28,11 @@ PatagoniaCraft.OnFillWorldObjectContextMenu = function(player, context, worldobj
     local _wallMenu = _containerMenu:getNew(_containerMenu)
     context:addSubMenu(_architectureOption, _wallMenu)
     PatagoniaCraft.wallsMenuBuilder(_wallMenu, player)
+
+    local _woodenGateOption = _containerMenu:addOption('Porton')
+    local _woodenGate = _containerMenu:getNew(_containerMenu)
+    context:addSubMenu(_woodenGateOption, _woodenGate)
+    PatagoniaCraft.woodenGateMenuBuilder(_woodenGate, player)
 end
 
 Events.OnFillWorldObjectContextMenu.Add(PatagoniaCraft.OnFillWorldObjectContextMenu)

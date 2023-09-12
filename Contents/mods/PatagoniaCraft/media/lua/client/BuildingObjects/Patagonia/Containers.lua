@@ -18,27 +18,19 @@ PatagoniaCraft.cratesMenuBuilder = function(subMenu, player)
     },
     {
       Material = 'Base.Nails',
-      Amount = 9
-    },
-    {
-      Material = 'Base.BlowTorch',
-      Amount = 2
-    },
-    {
-      Material = 'Base.WeldingRods',
-      Amount = 2
+      Amount = 50
     },
     {
       Material = 'Base.MetalPipe',
-      Amount = 6
+      Amount = 3
     },
     {
       Material = 'Base.SmallSheetMetal',
-      Amount = 6
+      Amount = 3
     },
     {
       Material = 'Base.SheetMetal',
-      Amount = 6
+      Amount = 3
     },
     {
       Material = 'Base.ScrapMetal',
@@ -54,7 +46,7 @@ PatagoniaCraft.cratesMenuBuilder = function(subMenu, player)
 
   local needSkills = {
     Woodwork = 10,
-    MetalWelding = 10
+    MetalWelding = 2
   }
 
   _sprite = {}
@@ -92,12 +84,10 @@ PatagoniaCraft.onBuildWoodenContainer = function(ignoreThisArgument, sprite, pla
   end
 
   _container.modData['need:Base.Plank'] = 9
-  _container.modData['need:Base.Nails'] = 9
-  _container.modData['need:Base.BlowTorch'] = 2
-  _container.modData['need:Base.WeldingRods'] = 2
-  _container.modData['need:Base.MetalPipe'] = 6
-  _container.modData['need:Base.SmallSheetMetal'] = 6
-  _container.modData['need:Base.SheetMetal'] = 6
+  _container.modData['need:Base.Nails'] = 50
+  _container.modData['need:Base.MetalPipe'] = 3
+  _container.modData['need:Base.SmallSheetMetal'] = 3
+  _container.modData['need:Base.SheetMetal'] = 3
   _container.modData['need:Base.ScrapMetal'] = 3
 
   function _container:getHealth()

@@ -24,15 +24,10 @@ PatagoniaCraft.OnFillWorldObjectContextMenu = function(player, context, worldobj
     context:addSubMenu(_containerOption, _crateMenu)
     PatagoniaCraft.cratesMenuBuilder(_crateMenu, player)
 
-    local _architectureOption = _containerMenu:addOption(getText('ContextMenu_Architecture'))
-    local _wallMenu = _containerMenu:getNew(_containerMenu)
-    context:addSubMenu(_architectureOption, _wallMenu)
-    PatagoniaCraft.wallsMenuBuilder(_wallMenu, player)
-
-    local _woodenGateOption = _containerMenu:addOption('Porton')
-    local _woodenGate = _containerMenu:getNew(_containerMenu)
-    context:addSubMenu(_woodenGateOption, _woodenGate)
-    PatagoniaCraft.woodenGateMenuBuilder(_woodenGate, player)
+    local _electronicOption = _containerMenu:addOption(getText('ContextMenu_Electronic'))
+    local _fridgeMenu = _containerMenu:getNew(_containerMenu)
+    context:addSubMenu(_electronicOption, _fridgeMenu)
+    PatagoniaCraft.fridgeMenuBuilder(_fridgeMenu, player)
 end
 
 Events.OnFillWorldObjectContextMenu.Add(PatagoniaCraft.OnFillWorldObjectContextMenu)

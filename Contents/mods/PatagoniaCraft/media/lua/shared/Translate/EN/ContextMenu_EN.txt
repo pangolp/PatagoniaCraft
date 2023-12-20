@@ -2,5 +2,5 @@ ContextMenu_EN = {
   ContextMenu_Patagonia = "Patagonia",
   ContextMenu_Container = "Containers",
   ContextMenu_CratePatagonia = "Box Patagonian",
-  ContextMenu_Wall_Patagonian = "Indestructible wall",
+  ContextMenu_Electronic = "Electronic",
 }

@@ -2,7 +2,6 @@ ContextMenu_ES = {
   ContextMenu_Patagonia = "Patagonia",
   ContextMenu_Container = "Contenedores",
   ContextMenu_CratePatagonia = "Caja Patagonica",
-  ContextMenu_Architecture = "Arquitectura",
-  ContextMenu_Wall_Patagonian = "Muro indestructible",
-  ContextMenu_Wooden_Gate_Patagonian = "Portón indestructible",
+  ContextMenu_Electronic = "Electronica",
+  ContextMenu_BlueFridge = "Nevera azul",
 }

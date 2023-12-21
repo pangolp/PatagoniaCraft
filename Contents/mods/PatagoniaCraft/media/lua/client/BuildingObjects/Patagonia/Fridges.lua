@@ -12,19 +12,19 @@ PatagoniaCraft.fridgeMenuBuilder = function(subMenu, player)
   local _icon = ''
 
   PatagoniaCraft.neededMaterials = {
-    { Material = 'Base.SheetMetal', Amount = 7 },
-    { Material = 'Base.Screws', Amount = 20 },
-    { Material = 'Radio.ElectricWire', Amount = 5 },
-    { Material = 'Base.ElectronicsScrap', Amount = 25 },
-    { Material = 'Base.BlowTorch', Amount = 5 },
-    { Material = 'Base.WeldingRods', Amount = 5 }
+    {Material = 'Base.SheetMetal', Amount = 7},
+    {Material = 'Base.Screws', Amount = 20},
+    {Material = 'Radio.ElectricWire', Amount = 5},
+    {Material = 'Base.ElectronicsScrap', Amount = 25},
+    {Material = 'Base.BlowTorch', Amount = 5},
+    {Material = 'Base.WeldingRods', Amount = 5}
   }
 
-  PatagoniaCraft.neededTools = { 'Hammer', 'BlowTorch', 'WeldingMask' }
+  PatagoniaCraft.neededTools = {'Hammer', 'Screwdriver', 'Wrench'}
 
   local needSkills = {
-    Woodwork = 10,
-    MetalWelding = 2
+    MetalWelding = 5,
+    Electricity = 5
   }
 
   _sprite = {}

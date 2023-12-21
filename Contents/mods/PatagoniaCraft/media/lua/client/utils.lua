@@ -29,6 +29,7 @@ PatagoniaCraft.toolsList['Shovel'] = {'Base.Shovel', 'Base.Shovel2'}
 PatagoniaCraft.toolsList['BlowTorch'] = {'Base.BlowTorch'}
 PatagoniaCraft.toolsList['WeldingMask'] = {'Base.WeldingMask'}
 PatagoniaCraft.toolsList['HandShovel'] = {'farming.HandShovel'}
+PatagoniaCraft.toolsList['Wrench'] = {'Base.Wrench'}
 
 PatagoniaCraft.skillLevel = {
   simpleObject = 1,

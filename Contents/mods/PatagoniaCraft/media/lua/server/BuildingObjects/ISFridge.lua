@@ -7,7 +7,7 @@ function ISFridge:create(x, y, z, north, sprite)
 
     local _freezerInv = ItemContainer.new()
     _freezerInv:setType('freezer')
-    _freezerInv:setCapacity(20)
+    _freezerInv:setCapacity(40)
     _freezerInv:setIsDevice(true)
     _freezerInv:setParent(self.javaObject)
     self.javaObject:addSecondaryContainer(_freezerInv)

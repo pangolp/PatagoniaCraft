@@ -2,5 +2,5 @@ name=Patagonia Craft
 id=PatagoniaCraft
 description=Crafting and utilities for the Patagonia server
 poster=poster.png
-tiledef=patagonia 575
+tiledef=patagonia 576
 pack=patagonia
